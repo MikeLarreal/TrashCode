@@ -17,13 +17,6 @@ D  Pr_staff                      8  2 inz
     *INLR = *ON;
  /End-free   
 
- --  Generar SQL 
---  Versión:                    V7R1M0 100423 
---  Generado en:                12/09/14 08:26:56 
---  Base de datos relacional:         D00AFEBT 
---  Opción de estándares:           DB2 for i 
-SET PATH "QSYS","QSYS2","SYSPROC","SYSIBMADM","DBEPGMR16" ; 
-  
 CREATE PROCEDURE DBEPGMR16.GETPROJS ( 
   IN IDEP CHAR(3) ) 
   DYNAMIC RESULT SETS 1 
